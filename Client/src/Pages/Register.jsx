@@ -2,9 +2,9 @@ import { useMemo, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { User, Mail, Lock } from "lucide-react";
 
-import Input from "../components/Input";
-import Button from "../components/Button";
-import API from "../services/api";
+import Input from "../Components/Input";
+import Button from "../Components/Button";
+import API from "../Services/api";
 
 function Register() {
   const [formData, setFormData] = useState({
