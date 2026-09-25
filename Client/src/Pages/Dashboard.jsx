@@ -18,7 +18,7 @@ import {
 
 import { useNavigate } from "react-router-dom";
 
-import API from "../services/api";
+import API from "../Services/api";
 
 
 function Dashboard() {
